@@ -29,12 +29,16 @@ const MyProjects = () => {
       >
         <div className={`relative ${css}`}>
           <Image
-            src={img}
-            layout="fill"
-            objectFit="cover"
+            src={`/portfolio${img}`}
+            fill
             priority
             alt="img"
-            style={{ borderRadius: 20 }}
+            style={{
+              borderRadius: 20,
+              height: "100%",
+              width: "100%",
+              objectFit: "cover",
+            }}
           />
         </div>
       </Link>
@@ -113,7 +117,6 @@ const MyProjects = () => {
           transition={{
             ease: "easeInOut",
             duration: 2,
-            delay: 0.3,
           }}
           variants={{
             visible: { opacity: 1 },
@@ -134,7 +137,6 @@ const MyProjects = () => {
           transition={{
             ease: "easeInOut",
             duration: 2,
-            delay: 1,
           }}
           variants={{
             visible: { opacity: 1 },

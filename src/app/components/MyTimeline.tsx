@@ -27,7 +27,6 @@ const MyTimeline = () => {
               transition={{
                 ease: "easeInOut",
                 duration: 1,
-                delay: index > 0 ? 1 : 0,
               }}
               variants={{
                 visible: { opacity: 1 },
@@ -67,7 +66,7 @@ const MyTimeline = () => {
                           className="flex md:h-[40px] md:w-[40px] bg-white justify-center rounded-full"
                         >
                           <Image
-                            src={i}
+                            src={`/portfolio${i}`}
                             height={30}
                             width={30}
                             priority

@@ -28,11 +28,12 @@ const MyContact = () => {
               target={itm.name === "gmail" ? "_self" : "_blank"}
             >
               <Image
-                src={itm.icon}
+                src={`/portfolio${itm.icon}`}
                 width={itm.size}
                 height={itm.size}
                 priority
                 alt={itm.name}
+                style={{height:"auto"}}
               />
             </Link>
           </motion.div>

@@ -24,7 +24,7 @@ const MyImage = () => {
       <div className="h-[400px] w-[240px] bg-[#2F2E30] rounded-xl relative">
         <div className=" flex h-[400px] w-[240px] bg-neutral-900 rounded-xl absolute top-8 right-8">
           <Image
-            src="/shreza.jpg"
+            src="/portfolio/shreza.jpg"
             width={240}
             height={400}
             priority

@@ -40,12 +40,12 @@ const MyTitle = () => {
               key={index}
             >
               <Image
-                src={skill.icon}
+                src={`/portfolio${skill.icon}`}
                 height={40}
                 width={40}
                 priority
                 alt="icon"
-                style={{ objectFit: "contain" }}
+                style={{ objectFit: "contain", height:"auto" }}
               />
             </div>
           ))}
