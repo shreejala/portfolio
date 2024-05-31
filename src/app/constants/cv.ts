@@ -1,0 +1,1 @@
+export const cvUrl = "https://drive.google.com/uc?export=download&id=1csPaTr9SY74GwuaCqcEC6aTL5e4Ph9Ps"
