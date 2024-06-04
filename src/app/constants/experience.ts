@@ -20,27 +20,42 @@ export const experience = [
     company: "Gurzu Inc",
     description:
       "As a Software Engineer in Gurzu Inc, I worked on developing mobile applications like WOLO (Social media app) and One by Metlife (360 health app). During my tenure, I was engagged in leading sprint ceremonies, knowledge sharing sessions and even mentorship programs.",
-    date: "Feb 2022 - May 2023",
+    date: "Feb 2022 - Jun 2023",
     features: [
       "/firebase.svg",
       "/fastlane.svg",
       "/redux.svg",
       "/ios.svg",
       "/android.svg",
+      "/sentry.svg"
     ],
   },
   {
     position: "Frontend Engineer",
-    company: "Opencafe LLC",
+    company: "Mercanto",
     description:
-      "Worked on developing B2B ecommerce applications and robust admin panels, showcasing proficiency in scalable web solutions and user-friendly interfaces. Involvement in overseeing project development and ensuring timely delivery. Led a mentorship program in React Native, providing guidance and support to enhance their skills.",
-    date: "June 2023 - May 2024",
+      "Worked on developing B2B ecommerce applications and robust admin panels, showcasing proficiency in scalable web solutions and user-friendly interfaces.",
+    date: "Jul 2023 - Jan 2024",
     features: [
       "/react.svg",
       "/tailwind.svg",
       "/next.svg",
       "/nodejs.svg",
       "/firebase.svg",
+    ],
+  },
+  {
+    position: "Frontend Engineer",
+    company: "Opencafe LLC",
+    description:
+      "Worked on developing hybrid mobile apps like HRMS, Loyalty app and Involvement in overseeing project development and ensuring timely delivery. Led a mentorship program in React Native, providing guidance and support to enhance their skills.",
+    date: "Jul 2023 - May 2024",
+    features: [
+      "/react.svg",
+      "/firebase.svg",
+      "/fastlane.svg",
+      "/ios.svg",
+      "/android.svg"
     ],
   },
 ];

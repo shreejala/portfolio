@@ -33,7 +33,7 @@ const MyTitle = () => {
           {skills.map((skill, index) => (
             <div
               className={`${
-                skill.slug === "nextjs"
+                skill.slug === "nextjs" || skill.slug === "ios"
                   ? "flex md:h-[40px] md:w-[40px] bg-white justify-center rounded-full"
                   : ""
               }`}
@@ -41,11 +41,11 @@ const MyTitle = () => {
             >
               <Image
                 src={`/portfolio${skill.icon}`}
-                height={40}
-                width={40}
+                height={35}
+                width={35}
                 priority
                 alt="icon"
-                style={{ objectFit: "contain", height:"auto" }}
+                style={{ objectFit: "contain", height: "auto" }}
               />
             </div>
           ))}

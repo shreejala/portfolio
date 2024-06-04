@@ -24,3 +24,24 @@ export const contacts = [
     url: "https://www.instagram.com/shreza_tuladhar/",
   },
 ];
+
+export const contact = [
+  {
+    title: "Call me",
+    key: "phone",
+    value: "+9779841870298",
+    icon: "/call.svg",
+  },
+  {
+    title: "Email me",
+    key: "email",
+    value: "shrezatldr@gmail.com",
+    icon: "/mail.svg",
+  },
+  {
+    title: "Find me",
+    key: "address",
+    value: "Swoyambhu, Kathmandu, Nepal",
+    icon: "/address.svg",
+  },
+];

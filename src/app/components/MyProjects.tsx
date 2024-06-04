@@ -58,36 +58,36 @@ const MyProjects = () => {
         </div>
       </div>
 
-      <div className="relative h-[780px] mt-10 text-lg 2xl:text-2xl text-neutral-300 flex flex-col gap-4 items-center">
+      <div className="relative h-[700px] mt-10 text-lg 2xl:text-2xl text-neutral-300 flex flex-col gap-4 items-center">
         {renderProjects(
           "/g50.webp",
           "w-[150px] h-[150px] xl:w-[200px] xl:h-[230px] 2xl:w-[230px] 2xl:h-[300px]",
-          "xl:absolute xl:left-[20.5%] xl:top-[15%] 2xl:left-[27.5%] 2xl:top-[20%]",
+          "xl:absolute xl:left-[20.5%] xl:top-[25%] 2xl:left-[27.5%] 2xl:top-[20%]",
           g50Url
         )}
         {renderProjects(
           "/metlife.webp",
           "w-[150px] h-[150px] xl:w-[170px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[220px]",
-          "xl:absolute xl:left-[38%] xl:top-0 2xl:left-[42%] 2xl:top-[2%]",
+          "xl:absolute xl:left-[38%] xl:top-[8%] 2xl:left-[42%] 2xl:top-0",
           metlifeUrl
         )}
         {renderProjects(
           "/wolo.webp",
           "w-[150px] h-[150px] xl:w-[170px] xl:h-[170px] 2xl:w-[220px] 2xl:h-[220px]",
-          "xl:absolute xl:left-[48%] xl:top-[47%] 2xl:left-[50%] 2xl:top-[61%]",
+          "xl:absolute xl:left-[48%] xl:top-[60%] 2xl:left-[50%] 2xl:top-[66%]",
           woloUrl
         )}
         {renderProjects(
           "/umva.webp",
           "w-[150px] h-[150px] xl:w-[200px] xl:h-[230px] 2xl:w-[230px] 2xl:h-[300px]",
-          "xl:absolute xl:left-[63.5%] xl:top-[24.5%] 2xl:left-[64%] 2xl:top-[33%]",
+          "xl:absolute xl:left-[63.5%] xl:top-[34.5%] 2xl:left-[64%] 2xl:top-[35%]",
           umvaUrl
         )}
 
         {renderProjects(
           "/mercanto.webp",
           "w-[150px] h-[150px] xl:w-[300px] xl:h-[160px] 2xl:w-[360px] 2xl:h-[200px]",
-          "xl:absolute xl:left-[38%] xl:top-[24.5%] 2xl:top-[33%] 2xl:left-[42%]",
+          "xl:absolute xl:left-[38%] xl:top-[35%] 2xl:top-[35%] 2xl:left-[42%]",
           mercantoUrl
         )}
 
@@ -103,7 +103,7 @@ const MyProjects = () => {
             visible: { opacity: 1 },
             hidden: { opacity: 0 },
           }}
-          className="hidden xl:flex absolute xl:left-[54%] xl:top-[6%] 2xl:left-[58%] 2xl:top-[10%] flex-col gap-1"
+          className="hidden xl:flex absolute xl:left-[54%] xl:top-[16%] 2xl:left-[58%] 2xl:top-[10%] flex-col gap-1"
         >
           <span>Software solutions for</span>
           <span> - Targeted region and people</span>
@@ -122,7 +122,7 @@ const MyProjects = () => {
             visible: { opacity: 1 },
             hidden: { opacity: 0 },
           }}
-          className="hidden xl:flex absolute xl:left-[22%] xl:top-[52%] 2xl:left-[30%] 2xl:top-[70%] flex-col gap-1"
+          className="hidden xl:flex absolute xl:left-[22%] xl:top-[62%] 2xl:left-[30%] 2xl:top-[73%] flex-col gap-1"
         >
           <span>Hybrid mobile applications</span>
           <span> - Social media platform</span>
@@ -146,7 +146,7 @@ const MyProjects = () => {
           <Link
             href={cvUrl}
             target="_blank"
-            className="hidden xl:flex absolute xl:left-[65%] xl:top-[57%] 2xl:left-[66%] 2xl:top-[77%] flex-col gap-1 cursor-pointer hover:text-neutral-100"
+            className="hidden xl:flex absolute xl:left-[65%] xl:top-[67%] 2xl:left-[66%] 2xl:top-[83%] flex-col gap-1 cursor-pointer hover:text-neutral-100"
           >
             <span>&</span>
             <span>Many more.</span>
