@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col pb-2 p-14 lg:p-24 lg:pb-2 gap-14 lg:gap-24">
+    <main className="flex min-h-screen flex-col pb-2 p-12 lg:p-24 lg:pb-2 gap-14 lg:gap-24">
       <div className="flex flex-col-reverse lg:flex-row gap-5">
         <div className="flex flex-col justify-center gap-8">
           <MyImage />

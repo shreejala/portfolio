@@ -9,12 +9,12 @@ import { skills } from "../constants";
 const MyTitle = () => {
   return (
     <div className="flex flex-col justify-around gap-8 2xl:gap-14 2xl:py-10">
-      <div className="flex flex-col gap-4 text-3xl 2xl:text-4xl 2xl:gap-6">
+      <div className="flex flex-col gap-4 text-2xl 2xl:text-4xl 2xl:gap-6">
         <span>{"Hi, I'm"}</span>
-        <span className="text-4xl md:text-5xl 2xl:text-6xl animate-typing overflow-hidden whitespace-nowrap bg-gradient-to-r from-cyan-500 to-cyan-800 inline-block text-transparent bg-clip-text">
+        <span className="text-3xl md:text-5xl 2xl:text-6xl animate-typing overflow-hidden whitespace-nowrap bg-gradient-to-r from-cyan-500 to-cyan-800 inline-block text-transparent bg-clip-text">
           Shreejala Tuladhar
         </span>
-        <span className="text-3xl 2xl:text-4xl">Software Engineer</span>
+        <span className="text-2xl 2xl:text-4xl">Software Engineer</span>
       </div>
 
       <motion.div

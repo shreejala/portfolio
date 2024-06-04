@@ -58,7 +58,7 @@ const MyProjects = () => {
         </div>
       </div>
 
-      <div className="relative h-[700px] mt-10 text-lg 2xl:text-2xl text-neutral-300 flex flex-col gap-4 items-center">
+      <div className="relative xl:h-[700px] mt-10 text-lg 2xl:text-2xl text-neutral-300 flex flex-row flex-wrap gap-4 justify-center">
         {renderProjects(
           "/g50.webp",
           "w-[150px] h-[150px] xl:w-[200px] xl:h-[230px] 2xl:w-[230px] 2xl:h-[300px]",
