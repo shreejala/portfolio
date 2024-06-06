@@ -26,12 +26,12 @@ export const contacts = [
 ];
 
 export const contact = [
-  {
-    title: "Call me",
-    key: "phone",
-    value: "+9779841870298",
-    icon: "/call.svg",
-  },
+  // {
+  //   title: "Call me",
+  //   key: "phone",
+  //   value: "+9779841870298",
+  //   icon: "/call.svg",
+  // },
   {
     title: "Email me",
     key: "email",
@@ -41,7 +41,7 @@ export const contact = [
   {
     title: "Find me",
     key: "address",
-    value: "Swoyambhu, Kathmandu, Nepal",
+    value: "Kathmandu, Nepal",
     icon: "/address.svg",
   },
 ];

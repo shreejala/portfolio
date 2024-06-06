@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 
 const Footer = () => {
@@ -10,7 +12,18 @@ const Footer = () => {
           ©{new Date().getFullYear()}. All Rights Reserved.
         </span>
         <span className=" text-right">
-          Designed by <span className="text-cyan-500"> Shreejala Tuladhar</span>
+          Designed by{" "}
+          <span
+            className="text-cyan-500"
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/shreejala-tuladhar-101178171/"
+              )
+            }
+          >
+            {" "}
+            Shreejala Tuladhar
+          </span>
         </span>
       </div>
     </div>
