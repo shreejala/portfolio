@@ -4,3 +4,4 @@ export * from "./skills";
 export * from "./projects";
 export * from "./cv";
 export * from "./regex";
+export * from "./overview";

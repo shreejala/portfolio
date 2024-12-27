@@ -18,10 +18,10 @@ export const contacts = [
     url: "https://github.com/shreejala",
   },
   {
-    name: "instagram",
-    icon: "/instagram.svg",
-    size: 25,
-    url: "https://www.instagram.com/shreza_tuladhar/",
+    name: "upwork",
+    icon: "/upwork.svg",
+    size: 35,
+    url: "https://www.upwork.com/freelancers/~01f87c4409de2578c8?viewMode=1",
   },
 ];
 

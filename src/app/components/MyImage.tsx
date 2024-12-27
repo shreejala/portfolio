@@ -26,7 +26,7 @@ const MyImage = () => {
           <Image
             src="/portfolio/shreza.jpg"
             width={240}
-            height={400}
+            height={240}
             priority
             alt="shreza"
             style={{ borderRadius: 10 }}

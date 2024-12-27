@@ -4,7 +4,13 @@ import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 
-import { skills } from "../constants";
+import {
+  finalTouch,
+  overview,
+  overviewContact,
+  overviewSkills,
+  skills,
+} from "../constants";
 
 const MyTitle = () => {
   return (
@@ -14,7 +20,12 @@ const MyTitle = () => {
         <span className="text-3xl md:text-5xl 2xl:text-6xl animate-typing overflow-hidden whitespace-nowrap bg-gradient-to-r from-cyan-500 to-cyan-800 inline-block text-transparent bg-clip-text">
           Shreejala Tuladhar
         </span>
-        <span className="text-2xl 2xl:text-4xl">Software Engineer</span>
+        <span className="text-2xl 2xl:text-4xl">
+          Passionate Software Engineer{" "}
+        </span>
+        <span className="text-lg 2xl:text-xl text-slate-300">
+          Crafting Intuitive Web & Mobile Experiences
+        </span>
       </div>
 
       <motion.div
@@ -62,18 +73,23 @@ const MyTitle = () => {
           delay: 1.45,
         }}
       >
-        <p>
-          Well organized and customer-focused with proven skills in team
-          leadership. As a Software Engineer, I’ve been working to maintain
-          proper standards for cross-platform mobile applications, web
-          applications, collaborate with teams to analyze projects, and build an
-          appropriate roadmap for development and delivery. Have provided
-          support to existing cross-platform mobile applications and revamp
-          based on current trends. Worked with foreign as well as local clients
-          in the tech industry for more than 4 years, building quality software
-          solutions. Strongly believe in taking complete ownership of official
-          responsibilities for an extensive mutual growth.
-        </p>
+        <p>{overview}</p>
+
+        <p>{overviewSkills}</p>
+      </motion.div>
+
+      <motion.div
+        className="w-[100%] xl:w-[85%] 2xl:w-[70%] bg-[#2F2E30] p-5 rounded-lg text-neutral-300 text-md leading-8"
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          ease: "easeInOut",
+          duration: 0.75,
+          delay: 1.45,
+        }}
+      >
+        <p>{finalTouch}</p>
+        <p className=" mt-2 text-cyan-500 text-center">{overviewContact}</p>
       </motion.div>
     </div>
   );
